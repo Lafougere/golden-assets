@@ -1,0 +1,23 @@
+{
+  "name": "golden-assets",
+  "authors": [
+    "Axel Glorieux <axel.glorieux@gmail.com>"
+  ],
+  "description": "all the assets for golden-ui",
+  "main": "golden-assets.html",
+  "keywords": [
+    "assets",
+    "golden",
+    "ui"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

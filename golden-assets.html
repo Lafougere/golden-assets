@@ -1,0 +1,42 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<dom-module id="golden-styles">
+<template>
+<style>
+	:host {display:none;}
+	@font-face {
+		font-family: "FreePixel";
+		src: url("fonts/Free Pixel Regular.woff2");
+	}
+
+</style>
+<div class="preload">
+	<img src="[[importPath]]images/slots/slot_middle.gif">
+	<img src="[[importPath]]images/slots/slot_middle_active.gif">
+	<img src="[[importPath]]images/slots/slot_middle_hover.gif">
+	<img src="[[importPath]]images/buttons/btn_middle.gif">
+	<img src="[[importPath]]images/buttons/btn_middle_active.gif">
+	<img src="[[importPath]]images/buttons/btn_secondary_middle.gif">
+	<img src="[[importPath]]images/buttons/btn_secondary_middle_hover.gif">
+	<img src="[[importPath]]images/buttons/btn_secondary_middle_active.gif">
+</div>
+</template>
+
+<script>
+/**
+* @customElement
+* @polymer
+*/
+class GoldenStyles extends Polymer.Element {
+	static get is() { return 'golden-styles'; }
+	static get properties() {
+		return {
+
+
+		}
+	}
+
+}
+
+window.customElements.define(GoldenStyles.is, GoldenStyles)
+</script>
+</dom-module>
